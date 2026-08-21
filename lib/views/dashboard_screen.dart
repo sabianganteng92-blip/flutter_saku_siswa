@@ -57,7 +57,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
       _riwayatPengeluaran.insert(0, {
         'judul': keterangan,
         'nominal': nominal,
-        'tanggal': DateTime.now().toString().substring(0, 10),
+        'tanggal': DateTime.now().toString().substring(0, 10),alvinyou313-cell
+
       });
     });
     _simpanDataLokal();
